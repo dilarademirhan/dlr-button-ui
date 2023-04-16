@@ -1,9 +1,45 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
+.btn {
+  text-transform: capitalize;
   padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+  border-radius: 5px;
+  margin: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #1677ff;
+  color: #fff;
+  border: 0;
+}
+
+.dashed {
+  border-style: dashed;
+}
+
+.text {
+  border: 0;
+}
+
+.link {
+  border: 0;
+  color: #1677ff;
+}
+
+.dashed:hover,
+.dashed:focus {
+  color: #1677ff;
+  border-color: #1677ff;
+}
+
+.text:hover,
+.text:focus {
+  background-color: lightgray;
+}
+
+.link:hover, .primary:hover
+.link:focus, .primary:focus {
+  filter: brightness(125%);
 }
